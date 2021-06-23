@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './components/Home/Home';
+import Home from './components/Home/Home.jsx';
 import './index.scss';
 
 ReactDOM.render(
@@ -8,4 +8,5 @@ ReactDOM.render(
     <Home />
   </React.StrictMode>,
   document.getElementById('root')
+
 );
