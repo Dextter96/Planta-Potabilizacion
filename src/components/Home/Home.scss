@@ -1,1 +1,35 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 100vh;
 
+    .animation_button{
+        transition: transform 0.5s;
+        width: 50%;
+        height: 100%;
+        padding: 10px; 
+    }
+    .animation_button:hover{
+        transform: scaleX(1.3);
+        transform-origin: left;
+    }
+    .home_game:hover{
+        transform: scaleX(1.3);
+        transform-origin: left;
+    }
+
+    .home_book:hover{
+        transform: scaleX(1.3);
+        transform-origin: right;
+    }
+    .home_game{
+        background-image: url(../../assets/images/game_bg.jpg);
+        margin-left: 10px;
+    }
+
+    .home_book{
+        margin-right: 10px;
+        background-image: url(../../assets/images/book_bg.jpg)
+    }
+}
