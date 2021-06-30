@@ -1,47 +1,22 @@
 import React from 'react';
 import HTMLFlipBook from "react-pageflip";
+import Page from '../Page/Page';
+import Cover from '../Cover/Cover';
 import './Book.scss'
 
 
 const Book = () => {
     return(
         <div className="flipbook">
-            <HTMLFlipBook width={300} height={500} showCover={true}>
-                <div className="page page-cover" data-density="hard">
-                    <div className="page-content">
-                        <h2>Titulo</h2>
-                    </div>
-                </div>
-                <div className="page">
-                    <div className="page-content">
-                        <h2 className="page-header">Page header - 1</h2>
-                        <div className="page-image"></div>
-                        <div className="page-text">
-                            <p>aqui va el cuerpo</p>
-                        </div>
-                        <div className="page-footer">1</div>
-                    </div>
-                </div>
-                <div className="page">
-                    <div className="page-content">
-                        <h2 className="page-header">Page header - 1</h2>
-                        <div className="page-image"></div>
-                        <div className="page-text">
-                            <p>aqui va el cuerpo</p>
-                        </div>
-                        <div className="page-footer">1</div>
-                    </div>
-                </div>
-                <div className="page">
-                    <div className="page-content">
-                        <h2 className="page-header">Page header - 1</h2>
-                        <div className="page-image"></div>
-                        <div className="page-text">
-                            <p>aqui va el cuerpo</p>
-                        </div>
-                        <div className="page-footer">1</div>
-                    </div>
-                </div>
+            <HTMLFlipBook width={500} height={700} showCover={true}>
+                <Cover>Titulo</Cover>
+                <Page title={'Titulo 1'} number={1}> Este es el texto children</Page>
+                <Page title={'Titulo Johansito'} number={2}>Esta va ser la pagina dedicada a johansito</Page>
+                <Page title={'Titulo Ratica'} number={3}>Esta va ser la pagina dedicada al ratica</Page>
+                <Page title={'Titulo Gordito'} number={4}>Esta va ser la pagina dedicada al gordi</Page>
+                <Page title={'Titulo para mi'} number={5}>Esta va ser la pagina dedicada para el mas aspero de este grupo</Page>
+                <Page title={'Este es mi nuevo titulo'} number={125}> 1. Capitulo 1 detalles de algo</Page>
+                <Cover>Final Libro</Cover>
             </HTMLFlipBook>
         </div>
     
