@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Book/Book.scss'
+import './Page.scss'
 
 const Page = React.forwardRef((props, ref) => {
     return(

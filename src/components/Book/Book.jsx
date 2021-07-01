@@ -8,7 +8,7 @@ import './Book.scss'
 const Book = () => {
     return(
         <div className="flipbook">
-            <HTMLFlipBook width={450} height={650} showCover={true} maxShadowOpacity={0.5}>
+            <HTMLFlipBook width={600} height={800} showCover={true} maxShadowOpacity={0.5}>
                 <Cover>Titulo</Cover>
                 <Page title={'Titulo 1'} number={1}> La conservación de la cuenca hidrográfica con la consiguiente protección de los manantiales suelen ser el mejor método para asegurar la calidad del agua destinada a consumo humano. Para impedir los riesgos de polución y contaminación por el ser humano y los animales deben ser evitados los lanzamientos de residuos líquidos que contengan organismos patógenos o  disminuir el desarrollo de actividades agrícolas que exijan el empleo de agroquímicos que contengan elementos tóxicos, o de fertilizantes que contengan nutrientes, los cuales son llevados a los cursos de agua por escurrimiento superficial o sub-superficial, causando florecimientos de algas y otros inconvenientes para la operación del sistema de tratamiento. Como consecuencia, son exigidas técnicas de tratamiento sofisticadas para los países en desarrollo, como el uso de agentes oxidantes, como pergamanato de potasio, ozono, peróxido de hidrógeno, de carbón activado para la adsorción de compuestos orgánicos específicos, etc. que encarecen los costos de tratamiento.</Page>
                 <Page title={'Titulo Johansito'} number={2}>Esta va ser la pagina dedicada a johansito</Page>

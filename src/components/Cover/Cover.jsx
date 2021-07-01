@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Book/Book.scss'
+import './Cover.scss'
 
 const Cover = React.forwardRef((props, ref) => {
     return(
@@ -11,4 +11,4 @@ const Cover = React.forwardRef((props, ref) => {
     );
 });
 
-export default Cover
+export default Cover;

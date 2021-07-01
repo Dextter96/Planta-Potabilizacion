@@ -1,32 +1,6 @@
-.cover{
-    background-color: #c5ae8d;
-    color: #735e40;
-    border: 1px solid #998466;
-}
-
-.page{
-    background-color: #fdfaf7;
-    color: #785e3a;
-    border: 1px solid #c2b5a3;
-    border-left: 0;
-    &_content{
-        padding: 15px;
-    }
-    &_title{
-        margin-bottom: .5rem;
-        font-weight: 500;
-        line-height: 1.2;
-        text-align: center;
-        padding-right: 10px;
-        padding-left: 10px;
-        border-bottom: ridge;
-    }
-    &_text{
-        text-align: justify;
-        padding: 10px;
-    }
-}
-
 .flipbook{
-    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0 60px;
 }
