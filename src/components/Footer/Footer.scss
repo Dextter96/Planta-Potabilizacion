@@ -1,0 +1,18 @@
+@import '../../assets/styles/vars.scss';
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    hr{
+        border-radius: 60px;
+    height: 7px;
+    width: 50vw;
+    background-color: $bg-footer; 
+    }
+    h5{
+        font-family: $text-paragraphs;
+    }
+}
