@@ -9,14 +9,21 @@
     color: #785e3a;
     border: 1px solid #c2b5a3;
     border-left: 0;
-    box-shadow: inset 7px 0 30px -7px black;
     &_content{
         padding: 15px;
     }
-    &_Title{
+    &_title{
         margin-bottom: .5rem;
         font-weight: 500;
         line-height: 1.2;
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-bottom: ridge;
+    }
+    &_text{
+        text-align: justify;
+        padding: 10px;
     }
 }
 
