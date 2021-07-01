@@ -1,11 +1,23 @@
-.page-cover{
+.cover{
     background-color: #c5ae8d;
     color: #735e40;
     border: 1px solid #998466;
 }
 
 .page{
-    background-color: green;
+    background-color: #fdfaf7;
+    color: #785e3a;
+    border: 1px solid #c2b5a3;
+    border-left: 0;
+    box-shadow: inset 7px 0 30px -7px black;
+    &_content{
+        padding: 15px;
+    }
+    &_Title{
+        margin-bottom: .5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
 }
 
 .flipbook{

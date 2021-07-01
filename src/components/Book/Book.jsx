@@ -8,7 +8,7 @@ import './Book.scss'
 const Book = () => {
     return(
         <div className="flipbook">
-            <HTMLFlipBook width={500} height={700} showCover={true}>
+            <HTMLFlipBook width={500} height={700} showCover={true} maxShadowOpacity={0.5}>
                 <Cover>Titulo</Cover>
                 <Page title={'Titulo 1'} number={1}> Este es el texto children</Page>
                 <Page title={'Titulo Johansito'} number={2}>Esta va ser la pagina dedicada a johansito</Page>
