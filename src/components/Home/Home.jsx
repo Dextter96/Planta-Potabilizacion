@@ -1,17 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Home.scss'
 
 const Home = () => {
     return (
         <div className='home'>
-            <div className='home_game'>
-                <button className='home_game_button'>game</button>
-            </div>
-
-            <div className='home_book'>
-                <button className='home_book_button'>book</button>
-            </div>
-
+            <Link className='home_game'>
+                <p>Ir al juego</p>
+            </Link>
+            <Link to="/book" className='home_book'>
+                <p>Ir al libro</p>
+            </Link>
         </div>
     )
 }

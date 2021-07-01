@@ -4,10 +4,9 @@ import './Footer.scss'
 const Footer = () => {
     return (
         <div className='footer'>
-            <hr />
-            <h5>todos los derechos reservados ©</h5>
-            <h5>desarrollo y diseños study-soft</h5>
-            <h5>contactenos</h5>
+            <p>todos los derechos reservados ©</p>
+            <p>desarrollo y diseños study-soft</p>
+            <p>contactenos</p>
         </div>
     )
 }
