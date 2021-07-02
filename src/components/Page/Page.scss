@@ -8,7 +8,7 @@
     }
     &_title{
         margin-bottom: .5rem;
-        font-weight: 500;
+        font-weight: 900;
         line-height: 1.2;
         text-align: center;
         padding-right: 10px;
@@ -18,5 +18,14 @@
     &_text{
         text-align: justify;
         padding: 10px;
+        p {
+            margin-bottom: 20px;
+            font-size: 1.26rem;
+        }
+        img {
+            width: 100%;
+            vertical-align: top;
+            margin-bottom: 20px;
+        }
     }
 }
