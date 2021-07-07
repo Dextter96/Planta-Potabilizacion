@@ -2,11 +2,10 @@ const data = [
     {
         "title": "CAPITULO 1: INTRODUCCIÓN",
         "content": {
-            "subtitle_01":"1.1 EL CONCEPTO DE SOSTENIBILIDAD EN EL SECTOR",    
+            "subtitle_01": "1.1 EL CONCEPTO DE SOSTENIBILIDAD EN EL SECTOR",    
             "text_01": "Con base en lo anterior, la búsqueda de la sostenibilidad implica que las soluciones de saneamiento deben estar incluidas en la intersección de las tres dimensiones discutidas y debe responde al contexto político, legal e institucional. De lo anterior se deduce que debe existir una estrecha colaboración entre los diferentes actores del desarrollo como condición sin equa non para alcanzar la sostenibilidad de los proyectos e inversiones de saneamiento.",
             "text_02": "Un sistema de tratamiento es sostenible cuando este suministra un nivel de servicio eficiente y confiable a lo largo del tiempo, el cual puede ser financiado o cofinanciado por los usuarios y mantenido con un mínimo de apoyo externo. Así mismo, este concepto implica que la solución de saneamiento es usada en forma eficiente sin afectar negativamente el ambiente.",
             "text_03": "La Figura 1.1 ilustra el modelo conceptual de la sostenibilidad el cual guía la búsqueda de soluciones sostenibles (Galvis, 1993). Una simplificación de la realidad deja ver tres dimensiones fundamentales dentro del contexto político, legal e institucional en consideración."
-            
         }
     },
     {
@@ -35,7 +34,11 @@ const data = [
             "list_01" : ["Disponibilidad de predios para todas las fases de construcción del proyecto, verificada de acuerdo con los usos según corresponda, del Plan de Ordenamiento Territorial, o del Plan Básico de Ordenamiento Territorial, o del Esquema de Ordenamiento Territorial. ",
             "En la identificación del sitio que se va a seleccionar debe priorizarse la llegada del agua cruda por gravedad y de ser posible, su distribución de la misma forma; lo anterior, teniendo en cuenta las condiciones geomorfológicas, geográficas y orográficas. En caso contrario, de acuerdo con el análisis multicriterio de alternativas, se debe buscar el sitio más conveniente para realizar bombeo.","Gordo"],
         }
+    },
+    {
+        "title": "pendiente johan"
     }
+    
 ]
 
 export default data;
