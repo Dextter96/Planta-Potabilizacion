@@ -14,8 +14,9 @@
         padding-right: 10px;
         padding-left: 10px;
         border-bottom: ridge;
+        min-height: 32px;
     }
-    &_text{
+    &_content{
         text-align: justify;
         padding: 10px;
         padding-left: 25px;
@@ -25,21 +26,26 @@
             font-size: 1.23rem;
         }
         img {
+            display: block;
             width: 85%;
-            vertical-align: top;
-            margin-bottom: 20px;
+            margin: auto;
         }
-        h3{
+        h3 {
             width: 100%;
             margin-bottom: 20px;
         }
-        ul{
+        ul {
             width: 100%;
             margin-bottom: 20px;
+            li {
+                width: 100%;
+                margin-bottom: 20px;
+            }
         }
-        li{
-            width: 100%;
-            margin-bottom: 20px;
-        }
+    }
+    &_footer {
+        position: fixed;
+        bottom: 10px;
+        right: 15px;
     }
 }
