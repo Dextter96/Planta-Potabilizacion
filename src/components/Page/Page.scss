@@ -18,13 +18,27 @@
     &_text{
         text-align: justify;
         padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
         p {
             margin-bottom: 20px;
-            font-size: 1.26rem;
+            font-size: 1.23rem;
         }
         img {
-            width: 100%;
+            width: 85%;
             vertical-align: top;
+            margin-bottom: 20px;
+        }
+        h3{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        ul{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        li{
+            width: 100%;
             margin-bottom: 20px;
         }
     }

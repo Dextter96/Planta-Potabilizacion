@@ -12,11 +12,19 @@ const Page = React.forwardRef((props, ref) => {
             return values.map((page, i) => {
                 let element;
                 switch(keys[i].split('_')[0]) {
+                    case 'subtitle':
+                        element = <h3 key={values[i]}>{values[i]}</h3>
+                        break;
                     case 'image':
-                        element = <img src={`/assets/images/${values[i]}`} />
+                        element = <img key={values[i]} src={`/assets/images/${values[i]}`} />
                     break;
                     case 'text':
-                        element = <p>{values[i]}</p>
+                        element = <p key={values[i]} >{values[i]}</p>
+                    break;
+                    case 'list':
+                        element = <ul key={values[i]}>
+                            {values[i].map((page,j) =>{ return <li>{values[i][j]}</li>})}
+                            </ul>
                     break;
                     default:
                         element = <></>
