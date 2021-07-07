@@ -9,8 +9,8 @@ const data = [
         }
     },
     {
-        "title": "CAPITULO 1: INTRODUCCIÓN",
-        "content": {            
+        "title": "",
+        "content": {          
             "text_01": "La comunidad y el gobierno local constituyen un grupo de personas con intereses e ideas comunes, pero también con relaciones conflictivas, estas personas generalmente provienen de diferentes contextos socioeconómicos y algunas veces culturales. De esta manera, la problemática del saneamiento en un caso específico pueden ser un interés común pero también una fuente importante de conflicto.",
             "text_02": "La otra dimensión fundamental es el Ambiente, que constituye la condición natural de frontera y moldea el desarrollo de la comunidad a la vez que define los riesgos naturales a los cuales ella esta expuesta. El Ambiente es también la fuente de recursos locales que le permite a una comunidad específica satisfacer sus necesidades.",
             "text_03": "La tercera dimensión comprende La Ciencia y la Tecnología, las cuales son la combinación del componente técnico con la generación de conocimiento que permiten sostener las soluciones encontradas. Esta dimensión, representa igualmente las posibilidades para reducir el riesgo ambiental que las comunidades enfrentan como consecuencia de una situación de saneamiento inadecuada."
@@ -18,7 +18,7 @@ const data = [
         }
     },
     {
-        "title": "CAPITULO 1: INTRODUCCIÓN",
+        "title": "",
         "content": {
             "text_01": "La intersección Ambiente-Comunidad representa el riesgo que los usuarios deben controlar en relación con las situaciones indeseables de saneamiento como modificar patrones sanitarios o de comportamiento en las viviendas o en las cuencas. Entre tanto, la intersección Ambiente-Tecnología representa el nivel de conocimiento y las opciones prácticas que existen para reducir el riesgo de contaminación de la fuente de agua, bien sea a través de acciones técnicas o de cambios de comportamiento en el individuo. Finalmente, en la intersección Tecnología-Comunidad, se puede identificar el tipo de solución que la comunidad espera, lo que implica el tipo de solución que la comunidad está dispuesta a operar, administrar, mantener y además que sean coherentes con sus capacidades, condiciones técnicas, socio-económicas y ambientales.",
             "image_01": "image_01.png",
@@ -36,9 +36,15 @@ const data = [
         }
     },
     {
+<<<<<<< HEAD
         "title": "pendiente johan"
     }
     
+=======
+        "title": "pendiente jaime",
+    }
+
+>>>>>>> 2eb03673c4bba16bccfa6131734201bd37084516
 ]
 
 export default data;
