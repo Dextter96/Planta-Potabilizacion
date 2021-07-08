@@ -17,8 +17,6 @@ const data = [
         "content": {
             "text_01": "La intersección Ambiente-Comunidad representa el riesgo que los usuarios deben controlar en relación con las situaciones indeseables de saneamiento como modificar patrones sanitarios o de comportamiento en las viviendas o en las cuencas. Entre tanto, la intersección Ambiente-Tecnología representa el nivel de conocimiento y las opciones prácticas que existen para reducir el riesgo de contaminación de la fuente de agua, bien sea a través de acciones técnicas o de cambios de comportamiento en el individuo. Finalmente, en la intersección Tecnología-Comunidad, se puede identificar el tipo de solución que la comunidad espera, lo que implica el tipo de solución que la comunidad está dispuesta a operar, administrar, mantener y además que sean coherentes con sus capacidades, condiciones técnicas, socio-económicas y ambientales.",
             "image_01": "image_01.png",
-            
-            
         }
     },
     {
@@ -35,6 +33,28 @@ const data = [
     {
         "title": "",
         "chapter": 2,
+        "page": 2,
+        "content": {
+            "image_02": "image_02.png",
+            "text_02" : "La sostenibilidad depende no solo de la capacidad de la tecnología para tratar el agua cruda y remover de manera eficiente sus contaminantes. También depende de aspectos como el grado de conocimiento local de la tecnología y de las características socioeconómicas y culturales de la localidad. Ninguna tecnología puede ser considerada como sostenible sin haberse definido previamente el contexto en el cual va a ser aplicada",
+            "list_01" : ["Disponibilidad de predios para todas las fases de construcción del proyecto, verificada de acuerdo con los usos según corresponda, del Plan de Ordenamiento Territorial, o del Plan Básico de Ordenamiento Territorial, o del Esquema de Ordenamiento Territorial. ",
+            "En la identificación del sitio que se va a seleccionar debe priorizarse la llegada del agua cruda por gravedad y de ser posible, su distribución de la misma forma; lo anterior, teniendo en cuenta las condiciones geomorfológicas, geográficas y orográficas. En caso contrario, de acuerdo con el análisis multicriterio de alternativas, se debe buscar el sitio más conveniente para realizar bombeo.","Gordo"],
+        }
+    },
+    {
+        "title": "",
+        "chapter": 3,
+        "page": 1,
+        "content": {
+            "image_02": "image_02.png",
+            "text_02" : "La sostenibilidad depende no solo de la capacidad de la tecnología para tratar el agua cruda y remover de manera eficiente sus contaminantes. También depende de aspectos como el grado de conocimiento local de la tecnología y de las características socioeconómicas y culturales de la localidad. Ninguna tecnología puede ser considerada como sostenible sin haberse definido previamente el contexto en el cual va a ser aplicada",
+            "list_01" : ["Disponibilidad de predios para todas las fases de construcción del proyecto, verificada de acuerdo con los usos según corresponda, del Plan de Ordenamiento Territorial, o del Plan Básico de Ordenamiento Territorial, o del Esquema de Ordenamiento Territorial. ",
+            "En la identificación del sitio que se va a seleccionar debe priorizarse la llegada del agua cruda por gravedad y de ser posible, su distribución de la misma forma; lo anterior, teniendo en cuenta las condiciones geomorfológicas, geográficas y orográficas. En caso contrario, de acuerdo con el análisis multicriterio de alternativas, se debe buscar el sitio más conveniente para realizar bombeo.","Gordo"],
+        }
+    },
+    {
+        "title": "",
+        "chapter": 3,
         "page": 2,
         "content": {
             "image_02": "image_02.png",
