@@ -1,12 +1,12 @@
-@import '../../assets/styles/vars.scss';
+@import "../../assets/styles/vars.scss";
 
-.footer{
-    margin-top: 38px;
-    width: 50%;
-    margin: 20px auto;
-    display: block;
-    text-align: center;
-    p {
-        font-family: $text-paragraphs;
-    }
+.footer {
+   margin-top: 38px;
+   width: 50%;
+   margin: 20px auto;
+   display: block;
+   text-align: center;
+   p {
+      font-family: $text-paragraphs;
+   }
 }

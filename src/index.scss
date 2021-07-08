@@ -1,16 +1,14 @@
-@import './assets/styles/vars';
+@import "./assets/styles/vars";
 
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box; 
-    
+* {
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
 }
 
 body {
-    font-family: $text-paragraphs;
-    background: $bg-primary;
-    color: $color-text;
-    overflow: hidden;
+   font-family: $text-paragraphs;
+   background: $bg-primary;
+   color: $color-text;
+   overflow: hidden;
 }
-

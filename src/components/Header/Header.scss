@@ -1,13 +1,13 @@
-@import '../../assets/styles/vars.scss';
+@import "../../assets/styles/vars.scss";
 
-.header{
-    display: flex;
-    justify-content: center;
-    height: 10vh;
-    padding: 5px;
-    h1{ 
-        font-family: $text-titles;
-        margin: auto;
-        border-bottom: 3px solid #3a7ca5;  
-    }
+.header {
+   display: flex;
+   justify-content: center;
+   height: 10vh;
+   padding: 5px;
+   h1 {
+      font-family: $text-titles;
+      margin: auto;
+      border-bottom: 3px solid #3a7ca5;
+   }
 }
