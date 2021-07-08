@@ -7,6 +7,13 @@ import data from '../../assets/data/bookData';
 
 
 const Book = () => {
+    data.sort(function (a, b) {
+        if (a.chapter === b.chapter) {
+             return a.page - b.page;
+        }
+        return a.chapter > b.chapter ? 1 : -1;
+    });
+
     return(
         <div className="flipbook">
             <HTMLFlipBook width={600} height={800} maxShadowOpacity={0.5} drawShadow={true}>
