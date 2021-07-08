@@ -60,8 +60,19 @@ const data = [
         "page": 2,
         "content": {
             "image_02": "image_02.png",
-            "text_02" : "La sostenibilidad depende no solo de la capacidad de la tecnología para tratar el agua cruda y remover de manera eficiente sus contaminantes. También depende de aspectos como el grado de conocimiento local de la tecnología y de las características socioeconómicas y culturales de la localidad. Ninguna tecnología puede ser considerada como sostenible sin haberse definido previamente el contexto en el cual va a ser aplicada",
+            "text_02" : "texto texto",
             "list_01" : ["Disponibilidad de predios para todas las fases de construcción del proyecto, verificada de acuerdo con los usos según corresponda, del Plan de Ordenamiento Territorial, o del Plan Básico de Ordenamiento Territorial, o del Esquema de Ordenamiento Territorial. ",
+            "En la identificación del sitio que se va a seleccionar debe priorizarse la llegada del agua cruda por gravedad y de ser posible, su distribución de la misma forma; lo anterior, teniendo en cuenta las condiciones geomorfológicas, geográficas y orográficas. En caso contrario, de acuerdo con el análisis multicriterio de alternativas, se debe buscar el sitio más conveniente para realizar bombeo.","Gordo"],
+        }
+    },
+    {
+        "title": "Commit Jaime",
+        "chapter": 4,
+        "page": 2,
+        "content": {
+            "image_02": "image_05.png",
+            "text_02" : "texto texto",
+            "list_01" : ["texto texto",
             "En la identificación del sitio que se va a seleccionar debe priorizarse la llegada del agua cruda por gravedad y de ser posible, su distribución de la misma forma; lo anterior, teniendo en cuenta las condiciones geomorfológicas, geográficas y orográficas. En caso contrario, de acuerdo con el análisis multicriterio de alternativas, se debe buscar el sitio más conveniente para realizar bombeo.","Gordo"],
         }
     },
