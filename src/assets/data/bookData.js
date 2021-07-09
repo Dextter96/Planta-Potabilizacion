@@ -222,13 +222,93 @@ const data = [
         "El desprendimiento de burbujas finas de aire dentro de las aguas residuales ya sea por difusión de aire comprimido.",
         "La adición a las aguas de agentes de flotación que se unen por si mismos a los sólidos suspendidos.",
       ],
-      text_05:
+      text_03:
         "Filtración. La filtración es el proceso complejo en el cual se combina el cernido, la sedimentación el contacto interfacial y aún la flotación para transferir sólidos suspendidos y flóculos a los granos de arena, carbón, diatomeas u otro material del cual son posteriormente retirados. Son ejemplos:",
       list_02: [
         "La filtración lenta a través de lechos de arena.",
         "La filtración rápida a través de lechos de arena, carbón mineral u otros gránulos.",
       ],
+      subtitle_01: "4.2.4 TRANSFERENCIA DE GASES.",
+      text_04:
+        "El proceso de transferencia de gases ocurre en varios sistemas de tratamiento de aguas y aguas residuales.",
     },
+  },
+  {
+    title: "",
+    chapter: 4,
+    page: 12,
+    content: {
+      text_01:
+        "Es un proceso en el cual el agua expuesta al aire permite escapar o absorber un gas. Los suministros de agua pueden airearse para eliminar gases disueltos no deseados y/o eliminar sustancias inorgánicas disueltas por oxigenación, tales como hierro y magnesio",
+      text_02: "Son ejemplo:",
+      list_01: [
+        "La adición de oxígeno por aireación mediante aspersión o burbujeo",
+        "La remoción del bióxido de carbono, H2S y sustancias volátiles olorosas.",
+        "La adición de cloro, ozono y bióxido de cloro.",
+        "La remoción de oxígeno por evacuación en desgasificadores para control de corrosión.",
+      ],
+      subtitle_01: "4.2.5 ESTABILIZACION DE SOLUTOS",
+      text_03:
+        "Operación en la cual solutos objetables son transformados en formas no objetables por una gran variedad de procesos sin llegar a la remoción. Transforma un soluto objetable que tiene el agua en una forma inicua sin llegar a su remisión. Es decir aquel soluto considerable y posiblemente dañino pasa a ser inofensivo Son ejemplos:",
+      list_02: [
+        "La adición de cal al agua o su paso a través de trozos de mármol, para convertir el bióxido de carbono excedente de los requerimientos del equilibrio a bicarbonato soluble.",
+      ],
+    },
+  },
+  {
+    title: "",
+    chapter: 4,
+    page: 13,
+    content: {
+      list_01: [
+        "La adición de fosfatos complejos al agua para mantener hierro en solución.",
+        "La adición de silicato de sodio para proteger a las superficies metálicas.",
+      ],
+      subtitle_01: "4.2.6 OTROS PROCESOS",
+      text_01:
+        "Entre las operaciones misceláneas pueden citarse las siguientes:",
+      list_02: [
+        "Desinfección del agua mediante la cual se destruyen los organismos potencialmente peligrosos e infecciosos.",
+        "Fluoración del agua, para reducir la caries dental.",
+        "La desalinización térmica. Es una serie de procesos destinados a la separación de la sal contenida en el agua (generalmente agua de mar) donde puede enfocarse en dos tipos: remover agua de la solución o remover la sal de la solución",
+      ],
+      subtitle_02: "4.3 TIPOS Y PROCESOS UNITARIOS DE POTABILIZACIÓN.",
+      text_02:
+        "Para aguas provenientes de fuentes de abastecimiento superficiales o subterráneas, las opciones de selección de los procesos unitarios que se van a diseñar, construir y operar, deben tener en cuenta los contaminantes presentes en ellas. Se deberá estudiar y evaluar la configuración del tren de procesos seleccionado para garantizar los estándares de calidad de agua para consumo humano",
+    },
+  },
+  {
+    title: "",
+    chapter: 4,
+    page: 14,
+    content: {
+      text_01:
+        "según la normativa vigente con las más altas eficiencias operativas, de acuerdo a las tecnologías planteadas en la Tabla 4.1",
+      image_01: "chapter4_09.png",
+      image_02: "chapter4_10.png",
+      text_02:
+        "El responsable del proyecto deberá evaluar la posibilidad de combinar tecnologías convencionales y tecnologías avanzadas",
+    },
+  },
+  {
+    title: "",
+    chapter: 4,
+    page: 15,
+    content: {
+      text_01:
+        "según las necesidades de tratamiento de acuerdo con la caracterización del agua cruda. En todos los casos, antes de la instalación de tecnologías avanzadas, deberán ser valoradas las eficiencias y condiciones actuales de la infraestructura existente.",
+      subtitle_01:
+        "4.4 APLICACIÓN DE LOS PROCESO EN LAS DIFERENTES TECNOLOGÌAS.",
+      text_02:
+        "La aplicación de las operaciones y procesos unitarios originan cambios en las características físicos, químicos y microbiológicos del agua cruda, para transformarlas en sustancias aceptables. Estas transformaciones se llevan a cambio en las plantas de tratamiento de agua potable las cuales se adaptan a las características del agua cruda para producir un agua apta para el consumo humano",
+      image_01: "chapter4_11.png",
+    },
+  },
+  {
+    title: "",
+    chapter: 4,
+    page: 16,
+    content: {},
   },
 ];
 
