@@ -499,6 +499,8 @@ const data = [
       subtitle_03: "2.4.1 PRUEBA DE JARRAS ",
       text_02:
         "Estas pruebas consisten en simular en vasos de precipitado o jarras, el proceso de coagulación-floculación que se producirá en la planta de tratamiento y evaluar distintos parámetros durante o al final de los ensayos para caracterizar su funcionamiento. ",
+      text_03:
+        "Este procedimiento debe realizarse de acuerdo a la Norma Técnica Colombiana NTC 3903, su objetivo básico es la determinación de los coagulantes y auxiliares de coagulación (metálicos o prepolimerizados), sus dosis óptimas, secuencia de adición de los mismos para una turbiedad, un color, un pH, una temperatura, una alcalinidad y una dureza dados. Estas pruebas deben repetirse no menos de 10 veces para distintas condiciones del agua cruda.  ",
     },
   },
   {
@@ -506,10 +508,17 @@ const data = [
     chapter: 2,
     page: 13,
     content: {
-      text_01:
-        "Este procedimiento debe realizarse de acuerdo a la Norma Técnica Colombiana NTC 3903, su objetivo básico es la determinación de los coagulantes y auxiliares de coagulación (metálicos o prepolimerizados), sus dosis óptimas, secuencia de adición de los mismos para una turbiedad, un color, un pH, una temperatura, una alcalinidad y una dureza dados. Estas pruebas deben repetirse no menos de 10 veces para distintas condiciones del agua cruda.  ",
       subtitle_01: "FIGURA 2.1 PRUEBA DE JARRAS ",
       image_01: "chapter2_01.jpg",
+      subtitle_02: "Fuente Propia ",
+      text_01:
+        " Las pruebas de jarras se pueden usar para la determinación de:  ",
+      text_02: "Dosis óptima de coagulantes, alcalinizantes y desinfectante.",
+      text_03: "Evaluaciones cualitativas:",
+      list_01: [
+        "Tamaño del flóculo producido",
+        "Tiempo inicial de formación del flóculo.",
+      ],
     },
   },
   {
@@ -517,31 +526,15 @@ const data = [
     chapter: 2,
     page: 14,
     content: {
-      subtitle_01: "Fuente Propia ",
-      subtitle_02:
-        " Las pruebas de jarras se pueden usar para la determinación de:  ",
-      text_01: "Dosis óptima de coagulantes, alcalinizantes y desinfectante.",
-      text_02: "Evaluaciones cualitativas:",
+      text_01: "Evaluaciones cuantitativas: ",
       list_01: [
-        "Tamaño del flóculo producido",
-        "Tiempo inicial de formación del flóculo.",
-      ],
-      text_03: "Evaluaciones cuantitativas: ",
-      list_02: [
         "Determinaciones físicas: turbiedad y color residuales, así como tiempos y   gradientes óptimos de velocidad. Cuando sea pertinente pueden también determinarse: la velocidad de sedimentación de los flóculos formados, y el número de partículas presentes por tamaños.",
         "Determinaciones químicas: pH y alcalinidad antes y después de la coagulación. Adicionalmente la concentración del aluminio residual, hierro y/o manganeso si procede.",
       ],
-    },
-  },
-  {
-    title: "",
-    chapter: 2,
-    page: 15,
-    content: {
       subtitle_01: "2.4.2 OTROS ENSAYOS  ",
-      subtitle_02:
+      text_02:
         " Adicionalmente en los ensayos de tratabilidad en pruebas de laboratorio debe determinarse: ",
-      list_01: [
+      list_02: [
         "Dosis de alcalinízate para obtener el pH de saturación o el pH óptimo de coagulación ",
         "Porcentaje de lodos producidos en la sedimentación",
         "Demanda de cloro y determinación del punto de quiebre",
@@ -553,7 +546,7 @@ const data = [
   {
     title: "",
     chapter: 2,
-    page: 16,
+    page: 15,
     content: {
       subtitle_01: "FIGURA 2.2 TRATAMIENTO CONVENCIONAL – CICLO COMPLETO ",
       image_01: "chapter2_03.png",
