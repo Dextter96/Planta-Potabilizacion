@@ -359,7 +359,7 @@ const data = [
         "La precipitación del hierro y manganeso del agua por aireación, siendo la reacción de oxidación por el oxigeno disuelto.",
         "El ablandamiento del agua por la acción de cal para precipitar la dureza de carbonato y de carbonato de sodio para precipitar la dureza de no carbonato.",
       ],
-      image_01: "chapter4_04.png",
+      imagesmall_01: "chapter4_04.png",
     },
   },
   {
@@ -374,7 +374,7 @@ const data = [
       subtitle_01: "Transferencia de iones",
       text_03:
         "Como su nombre lo indica, este proceso consiste en un intercambio de iones entre sustancias que desea remover y un medio solido a través del cual se hace pasar el flujo de agua. Este es el caso del ablandamiento del agua mediante resinas, en el cual se realiza un intercambio de iones de cal y magnesio por iones de sodio, al pasar agua a través de un medio poroso constituido por zeolitas de sodio.",
-      image_01: "chapter4_05.png",
+      imagesmall_01: "chapter4_05.png",
     },
   },
   {
@@ -401,7 +401,7 @@ const data = [
       list_01: [
         "La absorción de iones y moléculas productores de olor y sabor en lechos de carbón granulado o por carbón activado pulverizado suspendido en agua y separado por sedimentación o filtración.",
       ],
-      image_01: "chapter4_07.jpg",
+      imagesmall_01: "chapter4_07.jpg",
       image_02: "chapter4_08.png",
       list_02: [
         "La absorción en Ingeniería Química es una transferencia vapor-liquido o mejor dicho es la operación en la que la transferencia de materia tiene lugar de la fase vapor a la fase liquida.",
@@ -547,6 +547,258 @@ const data = [
     chapter: 4,
     page: 16,
     content: {},
+  },
+  {
+    title: "",
+    chapter: 5,
+    page: 1,
+    content: {
+      subtitle_01: "5.1. NECESIDAD DE LA COAGULACIÓN",
+      text_01:
+        "Generalmente las aguas superficiales requieren de algún tratamiento antes de ser distribuidas al consumidor. Estas pueden contener sustancias de diversas clases, algunas de las cuales son peligrosas para la salud y otras simplemente crean problemas estéticos.",
+      text_02:
+        "Las clases de sustancias que más nos interesan son los sólidos suspendidos y disueltos en particular los sólidos pequeños que no pueden ser removidos por un simple proceso de sedimentación.",
+      text_03:
+        "Como veremos más adelante, las partículas pequeñas son denominadas coloides y el objeto de la coagulación es convertir los coloides en partículas más grandes que sedimenten rápidamente.",
+      subtitle_02:
+        "5.2. ESTADO COLOIDAL, TURBIEDAD Y COLOR (Fuente Cepis/ops/pub/0.4.109)",
+      subtitle_03: "5.2.1 COLOIDES",
+      text_04:
+        "No hay límites definidos de tamaño para las partículas coloidales pero por lo general se considera que tienen una dimensión entre 1 y 1,000 milimicrones aproximadamente.",
+    },
+  },
+  {
+    title: "",
+    chapter: 5,
+    page: 2,
+    content: {
+      image_01: "chapter5_01.png",
+      link_01: "https://www.youtube.com/watch?v=xkDQlqyQ",
+      text_01:
+        "Los coloides entonces tienen un tamaño intermedio entre las partículas en solución verdadera y las partículas en suspensión (figura 5.1). Los límites enumerados en la figura 5.2 son aproximados ya que el tamaño y la naturaleza del material son los que determinan si la partícula es coloidal.",
+      text_02:
+        "Existen varios términos para distinguir los tipos de sistemas coloidales. Para el tratamiento de agua, los más importantes son hidrofílico e hidrofóbico.",
+      text_03:
+        "Los coloides hidrofílicos (del griego philos, querido) muestran gran atracción por el agua, mientras que los hidrofobicos (del griego phobe, fobia) muestran menos atracción.",
+    },
+  },
+  {
+    title: "",
+    chapter: 5,
+    page: 3,
+    content: {
+      text_01:
+        "El calificativo hidrofobico (fobia al agua) es impropio ya que si una sustancia repele completamente un medio potencial de dispersión no podría siquiera ser mojada y tampoco habría dispersión. Lo cierto es que las sustancias hidrofóbicas muestran una atracción considerablemente menor por el agua que las hidrofílicas.  Los coloides hidrofobicos son importantes en el tratamiento del agua e incluyen sustancias como arcillas y óxidos metálicos. Asimismo son termodinámicamente inestables con respecto a la formación de grandes cristales no coloidales.",
+      text_02:
+        "Los coloides hidrofílicos comprenden soluciones verdaderas ya sea de moléculas grandes o de agregados de moléculas pequeñas (llamados micelas), cuyas dimensiones están dentro de los límites coloidales.  Abarcan varios polímeros sintéticos y naturales y numerosas sustancias de significación biológica como proteínas, ácidos nucleicos, almidones y otras macromoléculas.  Las diferencias de opinión entre los investigadores sobre la naturaleza del color orgánico en el agua - solución verdadera o coloide - pueden resolverse si consideramos que el color orgánico es un coloide hidrofílico que consiste de moléculas grandes en solución.  Las soluciones de coloides hidrofílicos y las de moléculas más pequeñas difieren únicamente en que el gran tamaño de las moléculas o micelas conlleva propiedades y técnicas de estudio diferentes.",
+    },
+  },
+  {
+    title: "",
+    chapter: 5,
+    page: 4,
+    content: {
+      image_01: "chapter5_02.png",
+      link_01:
+        "https://www.youtube.com/watch?v=yk7zbvs6cp0&t=4244s&ab_channel=cropaia-leadinyourfield",
+    },
+  },
+  {
+    title: "CAPITULO II",
+    chapter: 2,
+    page: 1,
+    content: {
+      subtitle_01: "1. CALIDAD DEL AGUA ",
+      subtitle_02: "2.1. Calidad de la fuente y grado de tratamiento ",
+      subtitle_03: "AGUAS NATURALES. ",
+      text_01:
+        "La fuente de agua determina su calidad inherente. El agua lluvia absorbe los gases y vapores que normalmente presentes en la atmósfera: oxígeno, nitrógeno, bióxido de carbono y gases raros, y barre las partículas del aire cuando se forman gotas a su alrededor. Los núcleos de sal (en particular los cianuros) llegan a la atmósfera procedente del rocío marino y de las cascadas de agua dulce. La precipitación radiactiva contribuye con residuos de esta naturaleza. Sin embargo cuando la lluvia humedece la superficie de la tierra, el agua empieza a adquirir las propiedades del escurrimiento superficial, con excepción del agua de pozos, la nieve de las alturas y el hielo glacial que tiene características especiales. ",
+      text_02:
+        " Con el tiempo el agua superficial, en la misma forma que el escurrimiento de la lluvia, penetra en los estanques, lagos, ríos y mares. Sin embargo, en tiempos de sequía, gran parte del agua que fluye por los canales, emana, sobre todo, de yacimientos subterráneos que provienen del agua lluvia que se ha infiltrado a través del suelo. ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 2,
+    content: {
+      text_01:
+        "En épocas normales, la composición de los abastecimientos superficiales varía con la topografía y vegetación del área de capitación, así como el uso y métodos de exploración de las tierras. Durante las fuertes tormentas y crecientes, las tierras que normalmente están a salvo de la erosión por el escurrimiento y las planicies de inundación carentes de fuentes superficiales, pueden aportar cantidades considerables de limos a las corrientes de las crecientes.",
+      text_02:
+        "Las partículas tanto minerales como orgánicas pueden ser arrastradas por la erosión, junto con las bacterias del suelo y otros organismos, al mismo tiempo que se solubilizan las sales y otras substancias. Los fertilizantes naturales y sintéticos llegan al agua junto con los residuos de bioacidos, aun cuando la fuerza aglomerante de los suelos es sumamente poderosa. ",
+      text_03:
+        "Las algas y otros organismos con sus olores y sabores le dan una característica particular a las aguas de lagos y estanques. La vegetación en descomposición intensifica el color, olor y sabor de las aguas de pantanos. ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 3,
+    content: {
+      text_01:
+        "Las aguas subterráneas absorben gases de la materia orgánica en descomposición en el interior de los poros del manto del suelo, a través del cual filtran. En las tierras vivas que son ricas en materia orgánica, el agua desprende oxígeno y absorbe bióxido de carbono.  Se disminuye el pH se disuelven algunos de los minerales del suelo. Los carbonatos, sulfatos y cloruros se disuelven en el agua aumentando su dureza. Pueden solubilizarse también el hierro y el manganeso. Entre los gases en descomposición que pueden encontrarse en las aguas subterráneas están el ácido sulfhídrico y el metano. ",
+      text_02:
+        "La filtración natural elimina la materia orgánica y microorganismos, mientras que las sales permanecen en solución. Las aguas de manantiales son muy similares a las aguas subterráneas.  ",
+      text_03:
+        "Todos los elementos anteriormente citados, indican que la calidad del agua natural, depende de las características de la fuente y que la misma puede variar en el espacio y en el tiempo. El tipo de proceso de tratamiento a implementar deberá tener en cuenta las características del agua, de acuerdo al análisis de la fuente y de su comportamiento en el tiempo.  ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 4,
+    content: {
+      text_01:
+        "La calidad de la fuente debe caracterizarse de la manera más completa posible para poder identificar el tipo de tratamiento que necesita y los parámetros principales de interés en periodo seco y de lluvia. Además, la fuente debe cumplir con lo exigido en la Resolución 2115 /2007  o en su ausencia el que lo reemplace. En la tabla 2.1 se presenta la clasificación de los niveles de calidad de las fuentes de abastecimiento en función de unos parámetros mínimos de análisis físico- químico y microbiológico, y el grado de tratamiento asociado. ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 5,
+    content: {
+      subtitle_01: "TABLA 2.1 ",
+      subtitle_02: " CALIDAD DE LA FUENTE (RAS 2000) ",
+      text_01: "tabla ",
+      text_02: " ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 6,
+    content: {
+      subtitle_01: "TABLA 2.2 ",
+      subtitle_02: "PARAMETROS DE CALIDAD DEL AGUA ",
+      text_01: " tabla ",
+      text_02: " ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 7,
+    content: {
+      subtitle_01: "TABLA 2.3 ",
+      subtitle_02: " PROBABILIDAD DE CONTENIDO DE SOLIDOS  ",
+      text_01: " tabla ",
+      text_02: " ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 8,
+    content: {
+      subtitle_01: "TABLA 2.4 ",
+      subtitle_02: " PROCESO DE TRATAMIENTO SEGÚN IMPUREZA  ",
+      text_01: " tabla ",
+      text_02:
+        " FUENTE: HTTPS://WWW.YOUTUBE.COM/WATCH?V=YK7ZBVS6CP0&T=4244S&AB_CHANNEL=CROPAIA-LEADINYOURFIELD",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 9,
+    content: {
+      subtitle_01: " 2.2 CALIDAD DEL AGUA TRATADA ",
+      text_01:
+        "El agua potable debe ser pura y de buen sabor. El agua para consumo humano no debe contener microorganismos patógenos, ni sustancias tóxicas o nocivas para la salud. Por tanto, el agua para consumo debe cumplir los requisitos de calidad microbiológicos y fisicoquímicos exigidos en el Decreto 2115 del 2007, expedido por el Ministerio del Medio Ambiente o en su defecto, el que lo reemplace. La calidad del agua no debe deteriorarse ni caer por debajo de los límites establecidos durante el periodo de tiempo para el cual se diseñó el sistema de abastecimiento. ",
+      text_02:
+        "La Tabla 2.5 muestra algunos valores máximos admisibles de las normas microbiológicas, organolépticas, físicas y químicas de la calidad del agua potable que, de acuerdo al Decreto 2115/2007, expedido por el Ministerio del medio Ambiente, se deben cumplir en todo el territorio nacional en la red de distribución de los sistemas de acueducto independiente de su nivel de complejidad. La misma tabla contiene los parámetros de comparación mínimos recomendados para caracterizar el agua de la fuente superficial o subterránea, según su nivel de calidad.  ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 10,
+    content: {
+      text_01:
+        "Es responsabilidad de la entidad prestadora del servicio público de acueducto, controlar la calidad de agua en la red de distribución ya sea en puntos previamente escogidos como, por ejemplo, hidrantes o pilas diseñadas para recoger muestras, o en acometidas escogidas aleatoriamente. En dicho sitio debe darse cumplimiento como mínimo a los análisis organolépticos, físicos, químicos y microbiológicos establecidos la resolución 2115 del Decreto 1575 del 2007 y el número mínimo de muestras será la que establecen los artículos del citado Decreto. ",
+      text_02:
+        "El control de la calidad del agua es responsabilidad de las Empresas de Servicios Públicos de Acueducto y la vigilancia de la misma está a cargo del Ministerio de Salud a través de las autoridades de salud de los Departamentos, Distritos o Municipios, tal como está estipulado en el Decreto 2115 de 2007 y en la resolución.",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 11,
+    content: {
+      subtitle_01: "TABLA 2.5 ",
+      subtitle_02:
+        "NORMAS DE CALIDAD DE AGUA POTABLE SEGUN RESOLUCION 2115/2007  ",
+      subtitle_03:
+        " El valor aceptable de cloro residual libre en cualquier punto de la red de distribución de agua  ",
+      text_01: "tabla ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 12,
+    content: {
+      subtitle_01: "2.3 ESTUDIOS DE TRATABILIDAD ",
+      text_01:
+        "Para la selección de los procesos de tratamientos previos o paralelos al diseño de una planta, deben realizarse ensayos en el laboratorio siendo obligatorio entre estos, el Ensayo de Jarras; y posteriormente, si se justifica, realizar ensayos en planta piloto para determinar el tratamiento al que debe ser sometida el agua.  ",
+      subtitle_02: " 2.4	ENSAYOS DE LABORATORIO  ",
+      subtitle_03: "2.4.1 PRUEBA DE JARRAS ",
+      text_02:
+        "Estas pruebas consisten en simular en vasos de precipitado o jarras, el proceso de coagulación-floculación que se producirá en la planta de tratamiento y evaluar distintos parámetros durante o al final de los ensayos para caracterizar su funcionamiento. ",
+      text_03:
+        "Este procedimiento debe realizarse de acuerdo a la Norma Técnica Colombiana NTC 3903, su objetivo básico es la determinación de los coagulantes y auxiliares de coagulación (metálicos o prepolimerizados), sus dosis óptimas, secuencia de adición de los mismos para una turbiedad, un color, un pH, una temperatura, una alcalinidad y una dureza dados. Estas pruebas deben repetirse no menos de 10 veces para distintas condiciones del agua cruda.  ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 13,
+    content: {
+      subtitle_01: "FIGURA 2.1 PRUEBA DE JARRAS ",
+      image_01: "chapter2_01.jpg",
+      subtitle_02: "Fuente Propia ",
+      text_01:
+        " Las pruebas de jarras se pueden usar para la determinación de:  ",
+      text_02: "Dosis óptima de coagulantes, alcalinizantes y desinfectante.",
+      text_03: "Evaluaciones cualitativas:",
+      list_01: [
+        "Tamaño del flóculo producido",
+        "Tiempo inicial de formación del flóculo.",
+      ],
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 14,
+    content: {
+      text_01: "Evaluaciones cuantitativas: ",
+      list_01: [
+        "Determinaciones físicas: turbiedad y color residuales, así como tiempos y   gradientes óptimos de velocidad. Cuando sea pertinente pueden también determinarse: la velocidad de sedimentación de los flóculos formados, y el número de partículas presentes por tamaños.",
+        "Determinaciones químicas: pH y alcalinidad antes y después de la coagulación. Adicionalmente la concentración del aluminio residual, hierro y/o manganeso si procede.",
+      ],
+      subtitle_01: "2.4.2 OTROS ENSAYOS  ",
+      text_02:
+        " Adicionalmente en los ensayos de tratabilidad en pruebas de laboratorio debe determinarse: ",
+      list_02: [
+        "Dosis de alcalinízate para obtener el pH de saturación o el pH óptimo de coagulación ",
+        "Porcentaje de lodos producidos en la sedimentación",
+        "Demanda de cloro y determinación del punto de quiebre",
+        "isoterma de adsorción sobre carbón activado.",
+        "Evaluaciones cuantitativas:",
+      ],
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 15,
+    content: {
+      subtitle_01: "FIGURA 2.2 TRATAMIENTO CONVENCIONAL – CICLO COMPLETO ",
+      image_01: "chapter2_03.png",
+      text_01:
+        "  HTTPS://SISTEMAMID.COM.AR/PANEL/UPLOADS/BIBLIOTECA/2018-04-25_07-45-21144055.PDF ",
+    },
   },
 ];
 
