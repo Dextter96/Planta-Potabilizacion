@@ -121,7 +121,7 @@ const data = [
         "La precipitación del hierro y manganeso del agua por aireación, siendo la reacción de oxidación por el oxigeno disuelto.",
         "El ablandamiento del agua por la acción de cal para precipitar la dureza de carbonato y de carbonato de sodio para precipitar la dureza de no carbonato.",
       ],
-      image_01: "chapter4_04.png",
+      imagesmall_01: "chapter4_04.png",
     },
   },
   {
@@ -136,7 +136,7 @@ const data = [
       subtitle_01: "Transferencia de iones",
       text_03:
         "Como su nombre lo indica, este proceso consiste en un intercambio de iones entre sustancias que desea remover y un medio solido a través del cual se hace pasar el flujo de agua. Este es el caso del ablandamiento del agua mediante resinas, en el cual se realiza un intercambio de iones de cal y magnesio por iones de sodio, al pasar agua a través de un medio poroso constituido por zeolitas de sodio.",
-      image_01: "chapter4_05.png",
+      imagesmall_01: "chapter4_05.png",
     },
   },
   {
@@ -163,7 +163,7 @@ const data = [
       list_01: [
         "La absorción de iones y moléculas productores de olor y sabor en lechos de carbón granulado o por carbón activado pulverizado suspendido en agua y separado por sedimentación o filtración.",
       ],
-      image_01: "chapter4_07.jpg",
+      imagesmall_01: "chapter4_07.jpg",
       image_02: "chapter4_08.png",
       list_02: [
         "La absorción en Ingeniería Química es una transferencia vapor-liquido o mejor dicho es la operación en la que la transferencia de materia tiene lugar de la fase vapor a la fase liquida.",
@@ -309,6 +309,20 @@ const data = [
     chapter: 4,
     page: 16,
     content: {},
+  },
+  {
+    title: "",
+    chapter: 5,
+    page: 1,
+    content: {
+      text_01:
+        "según las necesidades de tratamiento de acuerdo con la caracterización del agua cruda. En todos los casos, antes de la instalación de tecnologías avanzadas, deberán ser valoradas las eficiencias y condiciones actuales de la infraestructura existente.",
+      subtitle_01:
+        "4.4 APLICACIÓN DE LOS PROCESO EN LAS DIFERENTES TECNOLOGÌAS.",
+      text_02:
+        "La aplicación de las operaciones y procesos unitarios originan cambios en las características físicos, químicos y microbiológicos del agua cruda, para transformarlas en sustancias aceptables. Estas transformaciones se llevan a cambio en las plantas de tratamiento de agua potable las cuales se adaptan a las características del agua cruda para producir un agua apta para el consumo humano",
+      image_01: "chapter4_11.png",
+    },
   },
 ];
 
