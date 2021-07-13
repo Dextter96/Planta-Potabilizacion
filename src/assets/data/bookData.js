@@ -37,14 +37,6 @@ const data = [
     },
   },
   {
-    title: "",
-    chapter: 2,
-    page: 2,
-    content: {
-      text_01: "jaime",
-    },
-  },
-  {
     title: "IV. PROCESOS UNITARIOS",
     chapter: 4,
     page: 1,
@@ -309,6 +301,210 @@ const data = [
     chapter: 4,
     page: 16,
     content: {},
+  },
+  {
+    title: "CAPITULO II",
+    chapter: 2,
+    page: 1,
+    content: {
+      subtitle_01: "1. CALIDAD DEL AGUA ",
+      subtitle_02: "2.1. Calidad de la fuente y grado de tratamiento ",
+      subtitle_03: "AGUAS NATURALES. ",
+      text_01:
+        "La fuente de agua determina su calidad inherente. El agua lluvia absorbe los gases y vapores que normalmente presentes en la atmósfera: oxígeno, nitrógeno, bióxido de carbono y gases raros, y barre las partículas del aire cuando se forman gotas a su alrededor. Los núcleos de sal (en particular los cianuros) llegan a la atmósfera procedente del rocío marino y de las cascadas de agua dulce. La precipitación radiactiva contribuye con residuos de esta naturaleza. Sin embargo cuando la lluvia humedece la superficie de la tierra, el agua empieza a adquirir las propiedades del escurrimiento superficial, con excepción del agua de pozos, la nieve de las alturas y el hielo glacial que tiene características especiales. ",
+      text_02:
+        " Con el tiempo el agua superficial, en la misma forma que el escurrimiento de la lluvia, penetra en los estanques, lagos, ríos y mares. Sin embargo, en tiempos de sequía, gran parte del agua que fluye por los canales, emana, sobre todo, de yacimientos subterráneos que provienen del agua lluvia que se ha infiltrado a través del suelo. ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 2,
+    content: {
+      text_01:
+        "En épocas normales, la composición de los abastecimientos superficiales varía con la topografía y vegetación del área de capitación, así como el uso y métodos de exploración de las tierras. Durante las fuertes tormentas y crecientes, las tierras que normalmente están a salvo de la erosión por el escurrimiento y las planicies de inundación carentes de fuentes superficiales, pueden aportar cantidades considerables de limos a las corrientes de las crecientes.",
+      text_02:
+        "Las partículas tanto minerales como orgánicas pueden ser arrastradas por la erosión, junto con las bacterias del suelo y otros organismos, al mismo tiempo que se solubilizan las sales y otras substancias. Los fertilizantes naturales y sintéticos llegan al agua junto con los residuos de bioacidos, aun cuando la fuerza aglomerante de los suelos es sumamente poderosa. ",
+      text_03:
+        "Las algas y otros organismos con sus olores y sabores le dan una característica particular a las aguas de lagos y estanques. La vegetación en descomposición intensifica el color, olor y sabor de las aguas de pantanos. ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 3,
+    content: {
+      text_01:
+        "Las aguas subterráneas absorben gases de la materia orgánica en descomposición en el interior de los poros del manto del suelo, a través del cual filtran. En las tierras vivas que son ricas en materia orgánica, el agua desprende oxígeno y absorbe bióxido de carbono.  Se disminuye el pH se disuelven algunos de los minerales del suelo. Los carbonatos, sulfatos y cloruros se disuelven en el agua aumentando su dureza. Pueden solubilizarse también el hierro y el manganeso. Entre los gases en descomposición que pueden encontrarse en las aguas subterráneas están el ácido sulfhídrico y el metano. ",
+      text_02:
+        "La filtración natural elimina la materia orgánica y microorganismos, mientras que las sales permanecen en solución. Las aguas de manantiales son muy similares a las aguas subterráneas.  ",
+      text_03:
+        "Todos los elementos anteriormente citados, indican que la calidad del agua natural, depende de las características de la fuente y que la misma puede variar en el espacio y en el tiempo. El tipo de proceso de tratamiento a implementar deberá tener en cuenta las características del agua, de acuerdo al análisis de la fuente y de su comportamiento en el tiempo.  ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 4,
+    content: {
+      text_01:
+        "La calidad de la fuente debe caracterizarse de la manera más completa posible para poder identificar el tipo de tratamiento que necesita y los parámetros principales de interés en periodo seco y de lluvia. Además, la fuente debe cumplir con lo exigido en la Resolución 2115 /2007  o en su ausencia el que lo reemplace. En la tabla 2.1 se presenta la clasificación de los niveles de calidad de las fuentes de abastecimiento en función de unos parámetros mínimos de análisis físico- químico y microbiológico, y el grado de tratamiento asociado. ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 5,
+    content: {
+      subtitle_01: "TABLA 2.1 ",
+      subtitle_02: " CALIDAD DE LA FUENTE (RAS 2000) ",
+      text_01: "tabla ",
+      text_02: " ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 6,
+    content: {
+      subtitle_01: "TABLA 2.2 ",
+      subtitle_02: "PARAMETROS DE CALIDAD DEL AGUA ",
+      text_01: " tabla ",
+      text_02: " ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 7,
+    content: {
+      subtitle_01: "TABLA 2.3 ",
+      subtitle_02: " PROBABILIDAD DE CONTENIDO DE SOLIDOS  ",
+      text_01: " tabla ",
+      text_02: " ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 8,
+    content: {
+      subtitle_01: "TABLA 2.4 ",
+      subtitle_02: " PROCESO DE TRATAMIENTO SEGÚN IMPUREZA  ",
+      text_01: " tabla ",
+      text_02:
+        " FUENTE: HTTPS://WWW.YOUTUBE.COM/WATCH?V=YK7ZBVS6CP0&T=4244S&AB_CHANNEL=CROPAIA-LEADINYOURFIELD",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 9,
+    content: {
+      subtitle_01: " 2.2 CALIDAD DEL AGUA TRATADA ",
+      text_01:
+        "El agua potable debe ser pura y de buen sabor. El agua para consumo humano no debe contener microorganismos patógenos, ni sustancias tóxicas o nocivas para la salud. Por tanto, el agua para consumo debe cumplir los requisitos de calidad microbiológicos y fisicoquímicos exigidos en el Decreto 2115 del 2007, expedido por el Ministerio del Medio Ambiente o en su defecto, el que lo reemplace. La calidad del agua no debe deteriorarse ni caer por debajo de los límites establecidos durante el periodo de tiempo para el cual se diseñó el sistema de abastecimiento. ",
+      text_02:
+        "La Tabla 2.5 muestra algunos valores máximos admisibles de las normas microbiológicas, organolépticas, físicas y químicas de la calidad del agua potable que, de acuerdo al Decreto 2115/2007, expedido por el Ministerio del medio Ambiente, se deben cumplir en todo el territorio nacional en la red de distribución de los sistemas de acueducto independiente de su nivel de complejidad. La misma tabla contiene los parámetros de comparación mínimos recomendados para caracterizar el agua de la fuente superficial o subterránea, según su nivel de calidad.  ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 10,
+    content: {
+      text_01:
+        "Es responsabilidad de la entidad prestadora del servicio público de acueducto, controlar la calidad de agua en la red de distribución ya sea en puntos previamente escogidos como, por ejemplo, hidrantes o pilas diseñadas para recoger muestras, o en acometidas escogidas aleatoriamente. En dicho sitio debe darse cumplimiento como mínimo a los análisis organolépticos, físicos, químicos y microbiológicos establecidos la resolución 2115 del Decreto 1575 del 2007 y el número mínimo de muestras será la que establecen los artículos del citado Decreto. ",
+      text_02:
+        "El control de la calidad del agua es responsabilidad de las Empresas de Servicios Públicos de Acueducto y la vigilancia de la misma está a cargo del Ministerio de Salud a través de las autoridades de salud de los Departamentos, Distritos o Municipios, tal como está estipulado en el Decreto 2115 de 2007 y en la resolución.",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 11,
+    content: {
+      subtitle_01: "TABLA 2.5 ",
+      subtitle_02:
+        "NORMAS DE CALIDAD DE AGUA POTABLE SEGUN RESOLUCION 2115/2007  ",
+      subtitle_03:
+        " El valor aceptable de cloro residual libre en cualquier punto de la red de distribución de agua  ",
+      text_01: "tabla ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 12,
+    content: {
+      subtitle_01: "2.3 ESTUDIOS DE TRATABILIDAD ",
+      text_01:
+        "Para la selección de los procesos de tratamientos previos o paralelos al diseño de una planta, deben realizarse ensayos en el laboratorio siendo obligatorio entre estos, el Ensayo de Jarras; y posteriormente, si se justifica, realizar ensayos en planta piloto para determinar el tratamiento al que debe ser sometida el agua.  ",
+      subtitle_02: " 2.4	ENSAYOS DE LABORATORIO  ",
+      subtitle_03: "2.4.1 PRUEBA DE JARRAS ",
+      text_02:
+        "Estas pruebas consisten en simular en vasos de precipitado o jarras, el proceso de coagulación-floculación que se producirá en la planta de tratamiento y evaluar distintos parámetros durante o al final de los ensayos para caracterizar su funcionamiento. ",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 13,
+    content: {
+      text_01:
+        "Este procedimiento debe realizarse de acuerdo a la Norma Técnica Colombiana NTC 3903, su objetivo básico es la determinación de los coagulantes y auxiliares de coagulación (metálicos o prepolimerizados), sus dosis óptimas, secuencia de adición de los mismos para una turbiedad, un color, un pH, una temperatura, una alcalinidad y una dureza dados. Estas pruebas deben repetirse no menos de 10 veces para distintas condiciones del agua cruda.  ",
+      subtitle_01: "FIGURA 2.1 PRUEBA DE JARRAS ",
+      image_01: "chapter2_01.jpg",
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 14,
+    content: {
+      subtitle_01: "Fuente Propia ",
+      subtitle_02:
+        " Las pruebas de jarras se pueden usar para la determinación de:  ",
+      text_01: "Dosis óptima de coagulantes, alcalinizantes y desinfectante.",
+      text_02: "Evaluaciones cualitativas:",
+      list_01: [
+        "Tamaño del flóculo producido",
+        "Tiempo inicial de formación del flóculo.",
+      ],
+      text_03: "Evaluaciones cuantitativas: ",
+      list_02: [
+        "Determinaciones físicas: turbiedad y color residuales, así como tiempos y   gradientes óptimos de velocidad. Cuando sea pertinente pueden también determinarse: la velocidad de sedimentación de los flóculos formados, y el número de partículas presentes por tamaños.",
+        "Determinaciones químicas: pH y alcalinidad antes y después de la coagulación. Adicionalmente la concentración del aluminio residual, hierro y/o manganeso si procede.",
+      ],
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 15,
+    content: {
+      subtitle_01: "2.4.2 OTROS ENSAYOS  ",
+      subtitle_02:
+        " Adicionalmente en los ensayos de tratabilidad en pruebas de laboratorio debe determinarse: ",
+      list_01: [
+        "Dosis de alcalinízate para obtener el pH de saturación o el pH óptimo de coagulación ",
+        "Porcentaje de lodos producidos en la sedimentación",
+        "Demanda de cloro y determinación del punto de quiebre",
+        "isoterma de adsorción sobre carbón activado.",
+        "Evaluaciones cuantitativas:",
+      ],
+    },
+  },
+  {
+    title: "",
+    chapter: 2,
+    page: 16,
+    content: {
+      subtitle_01: "FIGURA 2.2 TRATAMIENTO CONVENCIONAL – CICLO COMPLETO ",
+      image_01: "chapter2_03.png",
+      text_01:
+        "  HTTPS://SISTEMAMID.COM.AR/PANEL/UPLOADS/BIBLIOTECA/2018-04-25_07-45-21144055.PDF ",
+    },
   },
 ];
 
