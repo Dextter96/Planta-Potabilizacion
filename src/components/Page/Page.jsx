@@ -15,6 +15,9 @@ const Page = React.forwardRef((props, ref) => {
           case "subtitle":
             element = <h3 key={i}>{values[i]}</h3>;
             break;
+          case "extratitle":
+            element = <h3 key={i}>{values[i]}</h3>;
+            break;
           case "image":
             element = (
               <img key={i} src={`/assets/images/${values[i]}`} alt="" />
@@ -28,6 +31,13 @@ const Page = React.forwardRef((props, ref) => {
                 src={`/assets/images/${values[i]}`}
                 alt=""
               />
+            );
+            break;
+          case "link":
+            element = (
+              <a href={values[i]} key={i}>
+                {values[i]}
+              </a>
             );
             break;
           case "text":

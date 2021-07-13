@@ -315,13 +315,54 @@ const data = [
     chapter: 5,
     page: 1,
     content: {
+      subtitle_01: "5.1. NECESIDAD DE LA COAGULACIÓN",
       text_01:
-        "según las necesidades de tratamiento de acuerdo con la caracterización del agua cruda. En todos los casos, antes de la instalación de tecnologías avanzadas, deberán ser valoradas las eficiencias y condiciones actuales de la infraestructura existente.",
-      subtitle_01:
-        "4.4 APLICACIÓN DE LOS PROCESO EN LAS DIFERENTES TECNOLOGÌAS.",
+        "Generalmente las aguas superficiales requieren de algún tratamiento antes de ser distribuidas al consumidor. Estas pueden contener sustancias de diversas clases, algunas de las cuales son peligrosas para la salud y otras simplemente crean problemas estéticos.",
       text_02:
-        "La aplicación de las operaciones y procesos unitarios originan cambios en las características físicos, químicos y microbiológicos del agua cruda, para transformarlas en sustancias aceptables. Estas transformaciones se llevan a cambio en las plantas de tratamiento de agua potable las cuales se adaptan a las características del agua cruda para producir un agua apta para el consumo humano",
-      image_01: "chapter4_11.png",
+        "Las clases de sustancias que más nos interesan son los sólidos suspendidos y disueltos en particular los sólidos pequeños que no pueden ser removidos por un simple proceso de sedimentación.",
+      text_03:
+        "Como veremos más adelante, las partículas pequeñas son denominadas coloides y el objeto de la coagulación es convertir los coloides en partículas más grandes que sedimenten rápidamente.",
+      subtitle_02:
+        "5.2. ESTADO COLOIDAL, TURBIEDAD Y COLOR (Fuente Cepis/ops/pub/0.4.109)",
+      subtitle_03: "5.2.1 COLOIDES",
+      text_04:
+        "No hay límites definidos de tamaño para las partículas coloidales pero por lo general se considera que tienen una dimensión entre 1 y 1,000 milimicrones aproximadamente.",
+    },
+  },
+  {
+    title: "",
+    chapter: 5,
+    page: 2,
+    content: {
+      image_01: "chapter5_01.png",
+      link_01: "https://www.youtube.com/watch?v=xkDQlqyQ",
+      text_01:
+        "Los coloides entonces tienen un tamaño intermedio entre las partículas en solución verdadera y las partículas en suspensión (figura 5.1). Los límites enumerados en la figura 5.2 son aproximados ya que el tamaño y la naturaleza del material son los que determinan si la partícula es coloidal.",
+      text_02:
+        "Existen varios términos para distinguir los tipos de sistemas coloidales. Para el tratamiento de agua, los más importantes son hidrofílico e hidrofóbico.",
+      text_03:
+        "Los coloides hidrofílicos (del griego philos, querido) muestran gran atracción por el agua, mientras que los hidrofobicos (del griego phobe, fobia) muestran menos atracción.",
+    },
+  },
+  {
+    title: "",
+    chapter: 5,
+    page: 3,
+    content: {
+      text_01:
+        "El calificativo hidrofobico (fobia al agua) es impropio ya que si una sustancia repele completamente un medio potencial de dispersión no podría siquiera ser mojada y tampoco habría dispersión. Lo cierto es que las sustancias hidrofóbicas muestran una atracción considerablemente menor por el agua que las hidrofílicas.  Los coloides hidrofobicos son importantes en el tratamiento del agua e incluyen sustancias como arcillas y óxidos metálicos. Asimismo son termodinámicamente inestables con respecto a la formación de grandes cristales no coloidales.",
+      text_02:
+        "Los coloides hidrofílicos comprenden soluciones verdaderas ya sea de moléculas grandes o de agregados de moléculas pequeñas (llamados micelas), cuyas dimensiones están dentro de los límites coloidales.  Abarcan varios polímeros sintéticos y naturales y numerosas sustancias de significación biológica como proteínas, ácidos nucleicos, almidones y otras macromoléculas.  Las diferencias de opinión entre los investigadores sobre la naturaleza del color orgánico en el agua - solución verdadera o coloide - pueden resolverse si consideramos que el color orgánico es un coloide hidrofílico que consiste de moléculas grandes en solución.  Las soluciones de coloides hidrofílicos y las de moléculas más pequeñas difieren únicamente en que el gran tamaño de las moléculas o micelas conlleva propiedades y técnicas de estudio diferentes.",
+    },
+  },
+  {
+    title: "",
+    chapter: 5,
+    page: 4,
+    content: {
+      image_01: "chapter5_02.png",
+      link_01:
+        "https://www.youtube.com/watch?v=yk7zbvs6cp0&t=4244s&ab_channel=cropaia-leadinyourfield",
     },
   },
 ];
