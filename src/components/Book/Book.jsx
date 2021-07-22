@@ -1,44 +1,30 @@
-import React, { useEffect, useRef } from "react";
-import HTMLFlipBook from "react-pageflip";
-import Page from "../Page/Page";
-import Cover from "../Cover/Cover";
+import React, { useState } from "react";
+import { Viewer } from "@react-pdf-viewer/core"; // install this library
+import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
+import { Worker } from "@react-pdf-viewer/core";
+import "@react-pdf-viewer/core/lib/styles/index.css";
+import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 import "./Book.scss";
-import data from "../../assets/data/bookData";
+import pdfFile from "./file.pdf";
 
-const Book = () => {
-   const book = useRef();
-
-   useEffect(() => {
-      data.sort(function (a, b) {
-         if (a.chapter === b.chapter) {
-            return a.page - b.page;
-         }
-         return a.chapter > b.chapter ? 1 : -1;
-      });
-   });
+const Pdf = () => {
+   const [defaultPdfFile] = useState(pdfFile);
+   const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
    return (
-      <div className="flipbook">
-         <HTMLFlipBook
-            width={600}
-            height={800}
-            maxShadowOpacity={0.5}
-            drawShadow={true}
-            ref={book}
-         >
-            <Cover book={book} data={data} />
-            {data.map((_page, i) => (
-               <Page
-                  key={i}
-                  title={_page.title}
-                  number={i + 1}
-                  content={_page.content}
-               />
-            ))}
-            {/* <Cover>Final Libro</Cover> */}
-         </HTMLFlipBook>
+      <div className="pdf-container">
+         {defaultPdfFile && (
+            <>
+               <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js">
+                  <Viewer
+                     fileUrl={defaultPdfFile}
+                     plugins={[defaultLayoutPluginInstance]}
+                  />
+               </Worker>
+            </>
+         )}
       </div>
    );
 };
 
-export default Book;
+export default Pdf;
