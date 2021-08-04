@@ -5,7 +5,7 @@ import "./Home.scss";
 const Home = () => {
    return (
       <div className="home">
-         <Link className="home_game">
+         <Link to="/Shelving" className="home_game">
             <p>Ir al juego</p>
          </Link>
          <Link to="/book" className="home_book">
