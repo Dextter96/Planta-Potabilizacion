@@ -4,9 +4,10 @@ import "./Footer.scss";
 const Footer = () => {
    return (
       <div className="footer">
-         <p>todos los derechos reservados ©</p>
-         <p>desarrollo y diseños study-soft</p>
-         <p>contactenos</p>
+         <p>
+            © todos los derechos reservados HideSoft Studios{" "}
+            {new Date().getFullYear()}
+         </p>
       </div>
    );
 };

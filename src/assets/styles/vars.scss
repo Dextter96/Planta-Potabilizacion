@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto+Condensed:ital,wght@0,300;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto+Condensed:ital,wght@0,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 
-$text-titles: 'Roboto Condensed', sans-serif;
-$text-paragraphs:  'Raleway', sans-serif;
+$text-titles: "Roboto Condensed", sans-serif;
+$text-paragraphs: "Raleway", sans-serif;
 
-$bg-primary: #29262B;
-$bg-footer: #9DAAA4;
+$bg-primary: #29262b;
+$bg-footer: #9daaa4;
 $bg-header: #899878;
 
 $color-text: #fff;
-
-
-
-
+$font-numbers: "Staatliches", cursive;
