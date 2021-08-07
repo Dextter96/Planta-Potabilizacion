@@ -17,6 +17,9 @@
       transition: all 0.5s ease-in-out;
       border-radius: 10px;
       border: solid 2px transparent;
+      cursor: pointer;
+      text-decoration: none;
+      color: #fff;
       &:hover {
          transform: scale(1.1);
          border: solid 2px rgba(#000, 0.7);
